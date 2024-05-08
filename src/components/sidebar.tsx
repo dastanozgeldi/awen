@@ -23,7 +23,7 @@ const sidebarLinks = [
       {
         label: "Home",
         icon: <Home className="mr-2 h-4 w-4" />,
-        href: "/app",
+        href: "/",
       },
       {
         label: "Search",
@@ -100,7 +100,7 @@ export function Sidebar({ playlists }: Props) {
                 </h2>
                 <div className="space-y-1">
                   {section.links.map((link) => (
-                    <Link key={link.label} href={link.href}>
+                    <Link key={link.label} href={`/app/${link.href}`}>
                       <Button
                         variant="ghost"
                         size="sm"
