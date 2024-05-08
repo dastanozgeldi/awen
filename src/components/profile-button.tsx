@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { User } from "next-auth";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { signIn, signOut } from "@/auth";
@@ -45,7 +46,9 @@ export const ProfileButton = ({ user }: Props) => {
         <DropdownMenuContent>
           <DropdownMenuLabel>My Account</DropdownMenuLabel>
           <DropdownMenuSeparator />
-          <DropdownMenuItem>Profile</DropdownMenuItem>
+          <DropdownMenuItem>
+            <Link href="/app/profile">Profile</Link>
+          </DropdownMenuItem>
           <DropdownMenuItem>
             <form
               action={async () => {

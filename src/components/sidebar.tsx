@@ -23,12 +23,12 @@ const sidebarLinks = [
       {
         label: "Home",
         icon: <Home className="mr-2 h-4 w-4" />,
-        href: "/",
+        href: "",
       },
       {
         label: "Search",
         icon: <Search className="mr-2 h-4 w-4" />,
-        href: "/search",
+        href: "search",
       },
     ],
   },
@@ -38,27 +38,27 @@ const sidebarLinks = [
       {
         label: "Playlists",
         icon: <ListMusic className="mr-2 h-4 w-4" />,
-        href: "/playlists",
+        href: "playlists",
       },
       {
         label: "Songs",
         icon: <Music2 className="mr-2 h-4 w-4" />,
-        href: "/songs",
+        href: "songs",
       },
       {
         label: "Made for You",
         icon: <User className="mr-2 h-4 w-4" />,
-        href: "/made-for-you",
+        href: "made-for-you",
       },
       {
         label: "Artists",
         icon: <Mic2 className="mr-2 h-4 w-4" />,
-        href: "/artists",
+        href: "artists",
       },
       {
         label: "Albums",
         icon: <Library className="mr-2 h-4 w-4" />,
-        href: "/albums",
+        href: "albums",
       },
     ],
   },
